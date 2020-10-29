@@ -1,78 +1,64 @@
-# Product Name
-> Short blurb about what your product does.
+# Lexigram
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+**Lexigram** is a photo sharing app similar to Instagram but using Parse as its backend.
 
-One to two paragraph statement about your product and what it does.
+Time spent: **12** hours spent in total
 
-![](header.png)
+## User Stories
 
-## Installation
+The following **required** functionality is completed:
 
-OS X & Linux:
+- [x] User can view the last 20 posts submitted to "Instagram".
+- [x] The user should switch between different tabs - viewing all posts (feed view), compose (capture photos form camera) and profile tabs (posts made) using fragments and a Bottom Navigation View. (2 points)
+- [x] User can pull to refresh the last 20 posts submitted to "Instagram".
 
-```sh
-npm install my-crazy-module --save
-```
+The following **optional** features are implemented:
 
-Windows:
+- [ ] User sees app icon in home screen and styled bottom navigation view
+- [ ] Style the feed to look like the real Instagram feed.
+- [ ] User can load more posts once he or she reaches the bottom of the feed using infinite scrolling.
+- [ ] Show the username and creation time for each post.
+- [ ] User can tap a post to view post details, including timestamp and caption.
+- [ ] User Profiles
+      - [ ] Allow the logged in user to add a profile photo
+      - [ ] Display the profile photo with each post
+      - [ ] Tapping on a post's username or profile photo goes to that user's profile page and shows a grid view of the user's posts 
+- [ ] User can comment on a post and see all comments for each post in the post details screen.
+- [ ] User can like a post and see number of likes for each post in the post details screen.
 
-```sh
-edit autoexec.bat
-```
+The following **additional** features are implemented:
 
-## Usage example
+- [ ] List anything else that you can get done to improve the app functionality!
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+## Video Walkthrough
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+Here's a walkthrough of implemented user stories:
 
-## Development setup
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-```sh
-make install
-npm test
-```
+## Notes
 
-## Release History
+If you added another xml and Java class for a profile, your project might not run when you are doing part 2, even if you delete what you added.
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+## Open-source libraries used
 
-## Meta
+- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
+- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+## License
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+    Copyright [yyyy] [name of copyright owner]
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-## Contributing
+        http://www.apache.org/licenses/LICENSE-2.0
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
